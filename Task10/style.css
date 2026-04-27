@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Helvirica, Tahoma, Arial";
+    src: url(font/Helvirica.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Helvirica, Tahoma, Arial;
+}
+body > div {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, .2);
+}
+h1 {
+    padding: 15px 0;
+    font-size: 6em;
+    text-align: center;
+    text-shadow: -5px 0 5px black;
+}
+body > div > div {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    width: 375px;
+    height: 175px;
+    background-color: rgba(210, 0, 0, .2);
+}
+body > div > div > h2 {
+    white-space: inherit;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+body > dib > div > p {
+    text-indent: 10px;
+}
+body > div > div:nth-child(2) > p {
+    word-spacing: 25px;
+}
+body > div > div:nth-child(3) > p {
+    letter-spacing: 5px;
+}
+body > div > div:last-child > p {
+    font-size: 13px;
+    line-height: 25px;
+}

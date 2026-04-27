@@ -1,0 +1,77 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.redHeading {
+    color: #C03;
+}
+
+.greenUnder {
+    color: #32CD32;
+    text-decoration: underline;
+}
+
+.greenNoUnder {
+    color: #32CD32;
+    text-decoration: none;
+}
+.greenHeading {
+    color:#006400;
+}
+
+.link {
+    color: #7B68EE;
+    text-decoration: underline;
+}
+.link :visited{
+    color: #C03;
+}
+
+.link :active {
+    color: #32CD32;
+}
+
+.redUnder{
+    color: #C03;
+    text-decoration: underline;
+}
+
+.italic{
+    font-style: italic;
+}
+.bold {
+    font-weight: bold;
+}
+
+hr {
+    background-color: #32CD32;
+    height: 4px;
+}
+
+.TextBlock {
+    border: 3px dashed black;
+    overflow: scroll;
+    height: 200px;
+    width: 600px;
+}
+
+.image {
+    box-shadow: 10px 5px 5px gray;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.orangeList {
+    color : #FF6347;
+}
+
+.blackText {
+    color: black;
+}
+
+.opredel {
+    height: 300px;
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px grey;
+}

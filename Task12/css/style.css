@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, Tahoma, Arial;
+    width: 80em;
+    margin: 0 auto;
+    background: url(img/main_bg.png) no-repeat fixed;
+    background-size: cover;
+}
+/*Верхнаяя Часть*/
+.top {
+    background-color: rgba(0, 0, 255, .3);
+}
+
+.top > img {
+    width: 10em;
+    float: left;
+}
+
+.top > h1 {
+    font-size: 7em;
+    float: right;
+}
+
+.top > .menu {
+    width: 80em;
+}
+
+.menu > a {
+    text-decoration: none;
+    font-size: 3em;
+    color: black;
+}
+
+.menu >  a:visited {
+    color: black;
+}
+/*Основная часть*/
+.main {
+    background-color: rgba(0, 255, 0, .3);
+}
+
+.rocket {
+    position: relative;
+}
+
+.rocket > img {
+    width: 80em;
+}
+
+.rocket::before {
+    content: '<';
+    position: absolute;
+    color: black;
+    background-color: rgba(255, 255, 255, .7);
+    font-size: 5em;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+}
+
+.rocket::after {
+    content: '>';
+    position: absolute;
+    color: black;
+    background-color: rgba(255, 255, 255, .7);
+    font-size: 5em;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    cursor: pointer;
+}
+
+.text:nth-child(1) {
+    background-color: rgba(255, 255, 0, .3);
+    display: inline-block;
+    width: 20em;
+}
+.text:nth-child(2) {
+    background-color: rgba(255, 255, 0, .3);
+    display: inline-block;
+    width: 20em;
+}
+.text:nth-child(3) {
+    background-color: rgba(255, 255, 0, .3);
+    display: inline-block;
+    width: 20em;
+}
+/*Подвал сайта*/
+.bottom {
+    background-color: rgba(255, 0, 0, .3);
+}
+
+.bottom > .menu {
+    display: inline-block;
+}
+
+.bottom > .menu > a {
+    text-decoration: none;
+    font-size: 3em;
+    color: black;
+}
+
+.bottom > .menu > a:visited {
+    color: black;
+}
+
+.bottom > img {
+    display: inline-block;
+    width: 10em;
+}

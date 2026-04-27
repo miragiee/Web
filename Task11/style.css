@@ -1,0 +1,25 @@
+.box1 {
+    background-image: url(./img/border.png) ;
+    width: 600px;
+    height: 450px;
+    margin-bottom: 35px;
+    box-shadow: 5px 5px #888;
+    border: 3px solid rgb(0, 255, 13);
+}
+.box2 {
+    background-image: url(./img/main_bg.png);
+    width: 600px;
+    height: 450px;
+    margin-bottom: 35px;
+    background-attachment: fixed;
+    box-shadow: 5px 5px #383838;
+    border: 3px dashed orange;
+}
+.box3 {
+    background-image: url(./img/slide1.jpg);
+    width: 600px;
+    height: 450px;
+    margin-bottom: 35px;
+    box-shadow: 5px 5px #888;
+    border: 3px dotted rgb(255, 142, 142);
+}

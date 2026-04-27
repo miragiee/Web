@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+}
+.box {
+    width: 150px;
+    height: 150px; 
+    background: #FFA8A8;
+    display: flex;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Отступы для всех элементов прописывать здесь */
+    margin-bottom: 20px;
+
+}
+
+.box:nth-child(2n){
+    background: #A8DAFF;
+    /* Отступы для второго элемента прописывать здесь */
+
+}
+
+.box:nth-child(3n){
+    background: #D3A8FF;
+    /* Отступы для второго элемента прописывать здесь */
+}
+
+* {
+    box-sizing: border-box;
+}
+.box1 {
+    width: 150px;
+    height: 150px; 
+    background: #FFA8A8;
+    display: flex;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Отступы для всех элементов прописывать здесь */
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+}
+
+.box1:nth-child(2n){
+    background: #A8DAFF;
+    /* Отступы для второго элемента прописывать здесь */
+    margin-left: 25%;
+
+}
+
+.box1:nth-child(3n){
+    background: #D3A8FF;
+    /* Отступы для второго элемента прописывать здесь */
+    margin-left: 5%;
+}
+
+* {
+    box-sizing: border-box;
+}
+.box2 {
+    width: 150px;
+    height: 150px; 
+    background: #FFA8A8;
+    display: flex;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Отступы для всех элементов прописывать здесь */
+    margin-bottom: 20px;
+    margin-right:20px;
+
+}
+.box2:nth-child(1n){
+    background: #FFA8A8;
+    /* Отступы для второго элемента прописывать здесь */
+    margin-left: 36%;
+
+}
+
+.box2:nth-child(2n){
+    background: #A8DAFF;
+    /* Отступы для второго элемента прописывать здесь */
+    margin-left: 18%;
+
+}
+
+.box2:nth-child(3n){
+    background: #D3A8FF;
+    /* Отступы для второго элемента прописывать здесь */
+    margin-left: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+.box3 {
+    width: 150px;
+    height: 150px; 
+    background: #FFA8A8;
+    display: flex;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Отступы для всех элементов прописывать здесь */
+    margin-bottom: 20px;
+
+}
+.box3:nth-child(1n){
+    background: #FFA8A8;
+    /* Отступы для второго элемента прописывать здесь */
+    margin-bottom: 90px;
+    margin-left: 40%;
+
+}
+
+.box3:nth-child(2n){
+    background: #A8DAFF;
+    /* Отступы для второго элемента прописывать здесь */
+    margin-bottom: 20px;
+
+}
+
+.box3:nth-child(3n){
+    background: #D3A8FF;
+    /* Отступы для второго элемента прописывать здесь */
+    margin-bottom: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+.box4 {
+    width: 150px;
+    height: 150px; 
+    background: #FFA8A8;
+    display: flex;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Отступы для всех элементов прописывать здесь */
+    margin-bottom: 20px;
+    margin-right:20px;
+
+}
+.box4:nth-child(1n){
+    background: #FFA8A8;
+    /* Отступы для второго элемента прописывать здесь */
+    margin-left: 20px;
+
+}
+
+.box4:nth-child(2n){
+    background: #A8DAFF;
+    /* Отступы для второго элемента прописывать здесь */
+    margin-left: 18%;
+
+}
+
+.box4:nth-child(3n){
+    background: #D3A8FF;
+    /* Отступы для второго элемента прописывать здесь */
+    margin-left: 36%;
+}
+

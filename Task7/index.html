@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: bisque; font-size: 18px;">
+    <h1 style="text-align: center;">
+        <img src="images/PieceOfPizza.png" alt="кусочек пиццы" width="40" height="40">
+        Лучшая Пицца в Санкт-Петербурге
+        <img src="images/PieceOfPizza.png" alt="кусочек пиццы" width="40" height="40">
+    </h1>
+    <div style="text-align: center; background-color: black;"> 
+    <img src="images/AshotPizza.png" alt="Пицца у Ашота" height="700" >
+    </div>
+    <table>
+        <caption>В наличии</caption>
+        <tr>
+            <th>Пицца</th>
+            <th>Состав</th>
+            <th>Цена</th>
+        </tr>
+        <tr>
+            <th><img src="images/pepperoni.jpg" alt="Пепперони" width="200" height="200"></th>
+            <th>Пепперони: <br>
+                    Сыр Моцарелла, Колбаса сырокопчёная, Перец чили, Томат, Орегано, Базилик, Чеснок
+            </th>
+            <th>&nbsp;</th>
+            <th>390 рублей</th>
+        </tr>
+        <tr>
+            <th><img src="images/mashroomPizza.jpg" alt="Грибная" width="200" height="200"></th>
+            <th>Грибная:<br>
+                    Сыр Моцарелла, Сыр Рикотта, Шампиньоны, Петрушка, Курица Жаренная
+            </th>
+            <th> &nbsp;</th>
+            <th>400 рублей</th>
+        </tr>
+        <tr>
+            <th><img src="images/4cheesePizza.jpeg" alt="4 Сыра" width="200" height="200"></th>
+            <th>4 Сыра:<br>
+                    Сыр Моцарелла, Сыр Эмменталь, Сыр Горгонзола, Сыр Пармезан, Орегано
+                    
+            </th>
+            <th>&nbsp;</th>
+            <th>300 рублей</th>
+        </tr>
+    </table>
+    <form id="order">
+        <fieldset>
+            <legend>Заказ</legend>
+            <label for="Name">Введите ФИО</label>
+            <input type="text" id="Name"> <br>
+            <br>
+            <label for="Phone">Введите номер телефона</label>
+            <input type="number" id="Phone"><br>
+            <br>
+            <label for="Email">Введите адрес электронной почты</label>
+            <input type="email" id="Email"><br>
+            <br>
+            <label for="Address">Введите адрес доставки</label>
+            <input type="text" id="Address"><br>
+            <br>
+            <label>Выберите пиццу</label><br>
+            <input type="checkbox"> Пепперони<br>
+            <input type="checkbox"> Грибная<br>
+            <input type="checkbox"> 4 Сыра<br>
+            <br>
+            <label for="Rewiev">Оставьте отзыв (за плохой отзыв - бан)</label><br>
+            <textarea id="Rewiev"></textarea><br>
+        </fieldset>
+        <br>
+        <button>Отправить</button>
+    </form>
+</body>
+</html>

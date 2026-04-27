@@ -1,0 +1,20 @@
+.green_bg {
+    background-color: rgba(0,255,0, .3);
+    color: blue;
+}
+.blue_text {
+    color: blue;
+}
+#italic_style {
+    font-style: italic;
+}
+.red_text {
+    color: red;
+}
+.blue_bg {
+    background-color: rgba(0, 0, 255, .3);
+}
+.red_bg{
+    background-color: rgba(255, 0, 0, .3);
+    color: blue;
+}
